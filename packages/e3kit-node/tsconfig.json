@@ -2,6 +2,7 @@
     "compileOnSave": false,
     "compilerOptions": {
         "outDir": "./dist",
+        "noImplicitAny": false,
         "resolveJsonModule": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
@@ -17,7 +18,7 @@
         "importHelpers": true,
         "esModuleInterop": true,
         "target": "es2020",
-        "module": "es2015",
+        "module": "es2020",
         "lib": [
             "es2018",
             "dom"

@@ -3,11 +3,12 @@ const path = require('path');
 const builtinModules = require('builtin-modules');
 const license = require('rollup-plugin-license');
 const replace = require('rollup-plugin-re');
-const typescript = require('rollup-plugin-typescript2');
+const typescript = require('@rollup/plugin-typescript');
 const json = require('@rollup/plugin-json');
 const { generateCrossPlatformPath } = require('../../utils/build');
 
 const packageJson = require('./package.json');
+const { includes } = require('builtin-modules');
 
 const FORMAT = {
     CJS: 'cjs',
@@ -69,12 +70,7 @@ const createEntry = (cryptoType, format) => {
                 ],
             }),
             typescript({
-                useTsconfigDeclarationDir: true,
-                tsconfigOverride: {
-                    compilerOptions: {
-                        noImplicitAny: false,
-                    },
-                },
+                tsconfig: './tsconfig.json',
             }),
             json(),
             license({

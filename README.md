@@ -13,8 +13,8 @@
 
 ## Benefits
 
-- Easy to setup and integrate into new or existing projects
-- Compatible with any CPaaS provider, including Nexmo, Firebase, Twilio, PubNub and etc.
+- Easy to set up and integrate into new or existing projects
+- Compatible with any CPaaS provider, including Nexmo, Firebase, Twilio, and PubNub.
 - Strong secret keys storage, integration with all platform-specific storages
 - Provides GDPR and HIPAA compliance
 - Immune to quantum computers attacks
@@ -48,7 +48,7 @@ Virgil E3Kit JS is provided in separate packages for different platforms:
  
 ## Samples
 
-You can find examples for React Native, Webpack, Ionic, Node and UMD in the [examples folder](/examples), at our [Developer Documentation](https://developer.virgilsecurity.com/docs/e3kit/) and in the [E3kit Web Demo](https://github.com/VirgilSecurity/demo-e3kit-web).
+You can find examples for React Native, Webpack, Ionic, Node and UMD in the [examples folder](/examples), at our [Developer Documentation](https://developer.virgilsecurity.com/docs/e3kit/) and in the [E3Kit Web Demo](https://github.com/VirgilSecurity/demo-e3kit-web).
 
 ## License
 
